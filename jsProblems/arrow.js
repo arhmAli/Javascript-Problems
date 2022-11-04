@@ -5,4 +5,4 @@ alert(`You have entered ${arrow()}`)
 const arrowSecond=()=>{
   console.log("another one")
 }
-arowSecond();
+arrowSecond();
