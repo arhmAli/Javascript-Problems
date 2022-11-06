@@ -7,3 +7,4 @@ let here=minimum+maximum;
 console.log(here);
 let someNum=ranNum+maximum;
 someNum ===1? console.log("nah"):return Null;
+//end
