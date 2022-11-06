@@ -1,4 +1,4 @@
-//some random code using Min and MAX
+//some random code using MIN and MAX and Mapping 
 let array=[1,2,3,4,5,6,7,8,9,10];
 let anotherNum=array.map(item()=>{
 return array[item]+1})
