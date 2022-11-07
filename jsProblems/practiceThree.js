@@ -11,7 +11,7 @@ let someNum=ranNum+maximum;
 someNum ===1? console.log("nah"):return Null;
 console.log(anotherNum);
 //end
-//check even odd
+//check even or odd
 let a = alert("enter a number");
 a / 2 === 1 ? console.log("odd") : console.log("even");
 //end
