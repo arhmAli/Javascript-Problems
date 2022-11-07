@@ -11,3 +11,4 @@ let someNum=ranNum+maximum;
 someNum ===1? console.log("nah"):return Null;
 console.log(anotherNum);
 //end
+//check even odd
