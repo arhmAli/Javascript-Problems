@@ -14,6 +14,7 @@ const getData = async()=>{
     const res = await axios.get('https://icanhazdadjoke.com/',config)
     return res.data.joke;
     console.log(res.data.joke)
+    console.log(res.data)
     }
     catch (e){
         return "sorry no jokes here!"
