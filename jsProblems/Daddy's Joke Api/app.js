@@ -13,8 +13,10 @@ const getData = async()=>{
     const config = {headers:{ Accept:'application/json'} }
     const res = await axios.get('https://icanhazdadjoke.com/',config)
 return res.data.joke;
+    console.log(res.data.joke)
     }
     catch (e){
+        console.log(e)
         return "sorry no jokes here!"
     }
 }
