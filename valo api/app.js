@@ -13,7 +13,7 @@ const gunImages=async function(){
 }
 theBtn.addEventListener('click',gunImages);
 const theImages=(giveImage)=>{
-    for (let i=[0];i<=[10];i++){
+    for (let i=[0];i<=[13];i++){
      const img=document.createElement('img');
             img.src=giveImage[i].displayIcon;
             document.body.append(img);
