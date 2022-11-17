@@ -2,6 +2,10 @@
  for (let i = 0; i <= 20; i += 2) {
     console.log(i);
 } 
+// for odd number 0 to 100
+for (let i=0; i<=100;i+=3){
+ console.log(i)
+}
 // For decrement 100 to 0 by 10 */
 for (let i = 100; i >= 0; i -= 10) {
     console.log(i);
