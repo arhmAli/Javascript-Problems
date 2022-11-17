@@ -14,6 +14,7 @@ for (let i = 100; i >= 0; i -= 10) {
  for (let i = 25; i >= 0; i -= 5) {
     console.log(i);
 } 
+//Word guesser game
 let maximum = parseInt(prompt("enter the maximum number"));
 while (!maximum) {
     maximum = parseInt(prompt("enter a valid number"));
