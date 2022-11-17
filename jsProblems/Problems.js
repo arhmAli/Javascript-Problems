@@ -28,3 +28,6 @@ const Changer = createSlice({
 });
 export const { addNum } = Changer.actions;
 export default Changer.reducer;
+//random input from user
+let a=prompt("enter a number");
+console.log(a^^50+a^^2)
