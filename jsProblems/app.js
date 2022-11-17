@@ -94,7 +94,10 @@ function fullName(firstName, lastName) {
 function ShortsWeather(temperature) {
     return temperature >= 75;
  }
-
+//using arrow function todo this
+let fullName=(firstname,lastname)=>{
+ console.log(firstname+lastname)
+}
 function capitalize(word) {
     return word[0].toUpperCasse() + word.slice(1)
 }
