@@ -33,7 +33,7 @@ while (parseInt(guess) !== targetNum) {
 }
 console.log(`you took ${attempts} guesses`)
 
-
+//todolist algorithm kinda
 let input = prompt("what would you like to do");
 const todos = ['brush', 'breakfast'];
 while (input !== 'quit' && input !== 'q') {
