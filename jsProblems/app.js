@@ -118,3 +118,8 @@ function rollDie() {
     console.log(roll)
 }
 console.log("finished the doc")
+//generate a number from zero to the defined by user 
+let genNum=(num)=>{
+let gen=Math.floor(Math.random()*num)+1
+return gen
+}
