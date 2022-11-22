@@ -123,3 +123,7 @@ let genNum=(num)=>{
 let gen=Math.floor(Math.random()*num)+1
 return gen
 }
+//asynchronous function example
+async function (req,res){
+await console.log(res.data)
+}
