@@ -31,3 +31,10 @@ export default Changer.reducer;
 //random input from user
 let a=prompt("enter a number");
 console.log(a^^50+a^^2)
+// adder function
+let str=prompt("enter a string");
+let num=prompt("enter a number");
+let adder=(str,num)=>{
+return str+num
+}
+               
