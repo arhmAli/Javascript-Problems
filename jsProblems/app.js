@@ -1,3 +1,6 @@
+//printing simple anything a user enters
+let a= prompt("enter anything")
+console.log(a)
 //  For even number 0 to 20
  for (let i = 0; i <= 20; i += 2) {
     console.log(i);
