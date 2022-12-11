@@ -1,3 +1,5 @@
+//Different practices on DSA in Js i.e Array transversing 
+
 let input=[2,4,6,8,10];
 
 let out=input.filter((item,ind)=>item(ind));
