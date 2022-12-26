@@ -1,3 +1,5 @@
+//finding average of an array
+
 function findAverage(array) {
   // your code here
   let sum=0;
