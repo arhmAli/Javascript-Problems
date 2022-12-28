@@ -1,3 +1,5 @@
+//reversing an array of numbers
+
 function digitize(n) {
   //code here
   let here=parseFloat(n.toString().split('').reverse().join(''))*Math.sign(n)
