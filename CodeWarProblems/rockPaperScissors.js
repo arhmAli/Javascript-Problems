@@ -7,7 +7,7 @@
 // "scissors", "rock" --> "Player 2 won!"
 // "paper", "paper" --> "Draw!"
 
-
+//This is the most straightforward approach
 const rps = (p1, p2) => {
 //p1==="scissors"||p2==="scissors"
   if(p1==="scissors"&&p2==="paper"){
