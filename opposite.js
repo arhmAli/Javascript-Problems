@@ -1,3 +1,4 @@
+//regular function solution
 function opposite(number) {
   return -number
 }
