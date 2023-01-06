@@ -15,4 +15,10 @@ let sumHand=num.reduce((accumulator,currentValue)=>{
 return a+b
 }initialValue)
 
+//accumulator is just a fancy word of prevValue 
+
+//This will give the sum of the array
+console.error(sum)
+//This will also give the sum of the array
+console.log(sumHand)
 
