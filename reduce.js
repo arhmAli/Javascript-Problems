@@ -9,5 +9,10 @@ let num=[1,2,3,4,5]
 let sum=num.reduce((a,b)=>a+b,0)
 //The above mentioned is the shorthand syntax of reduce method we can explain it more like:
 
+let initialValue=0;
+
+let sumHand=num.reduce((accumulator,currentValue)=>{
+return a+b
+}initialValue)
 
 
