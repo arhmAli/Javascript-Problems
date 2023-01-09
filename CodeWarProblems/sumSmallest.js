@@ -1,4 +1,4 @@
-function sumTwoSmallestNumbers(numbers) {  
+const sumTwoSmallestNumbers=(numbers) => (  
   let sorted=numbers.sort((a,b)=>{
     if (a > b)
         return 1;
@@ -9,4 +9,4 @@ function sumTwoSmallestNumbers(numbers) {
  let newArray=numbers.slice(0,2)
  let sum=newArray.reduce((a,b)=>(a+b))
   return sum
-}
+)
