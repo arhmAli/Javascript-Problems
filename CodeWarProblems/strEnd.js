@@ -8,3 +8,13 @@
 function solution(str, ending){
   return str.endsWith(ending)?true:false
 }
+
+//Test Cases
+const Test = require('@codewars/test-compat');
+
+describe("Tests", () => {
+  it("test", () => {
+Test.assertEquals(solution('abcde', 'cde'), true)
+Test.assertEquals(solution('abcde', 'abc'), false)
+});
+});
