@@ -14,3 +14,11 @@ return Object.assign({},arr)
 }
 
 The object.assign will put the indices as default keys
+
+3rd approach is to simply use spread operator:
+
+const spreadConvertor=(arr)=>{
+return {...arr}
+}
+
+... enclosed with {} will take out the indices as keys of objects
