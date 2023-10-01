@@ -23,3 +23,12 @@ function findOdd(A) {
   return Number(arr);
 }
 
+// Second Approach that i got after learning XOR
+const odd(n)=>{
+let res=0;
+for(let i=0; i<n.length ; i++){
+  res^=n[i]
+// bitwise XORING meaning res will only be the digit which occurs odd number of times even one will be canceled out
+}
+return res
+}
